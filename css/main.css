@@ -1,6 +1,7 @@
 h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Montserrat';
   text-align: center;
+  color: black;
 }
 
 .s1 {
@@ -9,6 +10,30 @@ h1 {
 }
 
 .s1 h1 {
+  text-align: center;
+}
+
+.s2 {
+  background: url("../images/image2.jpg");
+  background-size: cover;
+}
+
+.s2 h1 {
+  text-align: left;
   color: white;
+  margin-left: 2em;
+  font-size: 4rem;
+}
+
+.s3 {
+  background: url("../images/image3.jpg");
+  background-size: cover;
+}
+
+.s3 h1 {
+  text-align: right;
+  color: white;
+  margin-left: 2em;
+  font-size: 4rem;
 }
 /*# sourceMappingURL=main.css.map */
